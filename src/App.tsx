@@ -24,8 +24,7 @@ const onClickFetchUser = () => {
           name: `${user.name}(${user.username})`,
           email: user.email,
           address: `${user.address.city}${user.address.suite}${user.address.street}`
-        }
-        ))
+        }))
       })  
   }
   return (
